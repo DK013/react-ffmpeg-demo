@@ -87,8 +87,8 @@ const HomePage = () => {
 	return (
 		<Page name="home" onPageInit={load}>
 			<Navbar large>
-				<NavTitle>My App</NavTitle>
-				<NavTitleLarge>My App</NavTitleLarge>
+				<NavTitle>React FFmpeg Demo</NavTitle>
+				<NavTitleLarge>React FFmpeg Demo</NavTitleLarge>
 			</Navbar>
 			{/* Page content */}
 			<Block>

@@ -1,8 +1,8 @@
 {
-  "name": "my-app",
+  "name": "react-ffmpeg-demo",
   "private": true,
   "version": "1.0.0",
-  "description": "My App",
+  "description": "React FFmpeg Demo",
   "repository": "",
   "license": "UNLICENSED",
   "homepage": "https://dk013.github.io/react-ffmpeg-demo",
