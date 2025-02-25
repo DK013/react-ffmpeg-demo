@@ -23,7 +23,7 @@ const HomePage = () => {
 	const [file, setFile] = useState(null);
 	const load = async () => {
 		f7.preloader.show();
-		const baseURL = window.location.origin + "/ffmpeg"; //"https://unpkg.com/@ffmpeg/core-mt@0.12.6/dist/esm";
+    const baseURL = import.meta.env.MODE === "production" ? import.meta.env.BASE_URL + "/ffmpeg" : window.location.origin + "/ffmpeg"; //"https://unpkg.com/@ffmpeg/core-mt@0.12.6/dist/esm";
 		const ffmpeg = ffmpegRef.current;
 		ffmpeg.on("log", ({ message }) => {
 			// messageRef.current.innerHTML = message;

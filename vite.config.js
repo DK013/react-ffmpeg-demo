@@ -11,7 +11,7 @@ export default async () => {
   return {
 		plugins: [react()],
 		root: SRC_DIR,
-		base: "",
+		base: process.env.NODE_ENV === "production" ? "/react-ffmpeg-demo/" : "",
 		publicDir: PUBLIC_DIR,
 		build: {
 			outDir: BUILD_DIR,
