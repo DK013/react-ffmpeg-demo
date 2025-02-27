@@ -1,3 +1,7 @@
+# Discontinued
+
+check [dk013/react-use-ffmpeg](https://github.com/DK013/react-use-ffmpeg) and it's [example](https://github.com/DK013/react-use-ffmpeg/tree/main/example) for latest implementation
+
 # Video to MP4 Converter
 
 A web-based video converter application that converts various video formats to MP4 using FFmpeg.wasm. Built with Framework7 and React.
